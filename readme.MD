@@ -7,7 +7,7 @@
 ### Installation
 
 ```
-$ cd example-project
+$ cd symfony-vue-example
 $ composer install
 $ yarn install
 $ yarn run build

@@ -18,7 +18,10 @@ const store = createStore({
   },
   mutations: {
     addOption (state, payload) {
-      state.selected.push(payload)
+      state.selected = [...state.selected, payload]
+    },
+    removeSelectedOptionByIndex(state, payload){
+      state.selected = state.selected.filter((o, i) => i !== payload)
     }
   }
 })

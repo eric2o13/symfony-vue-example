@@ -13,6 +13,7 @@ $ cd symfony-vue-example
 $ composer install
 $ yarn install
 $ yarn run build
+$ symfony server:start
 ```
 
 Visit `http://127.0.0.1:8000` in your browser

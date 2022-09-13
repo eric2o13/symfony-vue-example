@@ -9,6 +9,8 @@
 ```
 $ cd example-project
 $ composer install
+$ yarn install
+$ yarn run build
 ```
 
 ### Start dev server
